@@ -1,26 +1,26 @@
-# How to deal with panel data
+# How to forecast energy consumption for the Ticino region
 
 ![alternative text](img/readme_image.jpg)
 
 #### -- Project Status: [Completed]
 
 ## Objective
-When working with datasets, it is always important to properly understand the data we are tackling. Cross-sectional data, time series data, panel data, pooled time series data, there are just so many. I therefore decided to research some articles specifically related to panel data to get to know this type of data better. The final goal is to create and adapt a theoretical walkthrough based on the existing resources found on the internet.
+Even tough I still haven't revised Deep Learning and Tensorflow yet, I decided to analyze the power grid energy consumption in Ticino (Switzerland) from 2018 to 2022. Instead of going back to the notebooks I used during my bootcamp, I decided to find a walkthrough and adapt it to the data I used for this project. The goal was to recreate and adapt a walkthrough based on existing sources online and replicate LSTM for the dataset selected.
 
 ### Notebooks
-* [nielsen_and_panel_data](nielsen_and_panel_data.ipynb)
+* [ticino_energy_consumption_forecasting](ticino_energy_consumption_forecasting.ipynb)
 
 ### Data
-* [panel_data_guns_violence_US](https://raw.githubusercontent.com/ex-pr/Dataset/main/guns.csv)
+* [Aggregated energy data of the control block Switzerland](https://www.swissgrid.ch/en/home/customers/topics/energy-data-ch.html)
 
 ### Sources
-* [Assigning Panel Data to Training, Testing and Validation Groups for Machine Learning Models](https://towardsdatascience.com/assigning-panel-data-to-training-testing-and-validation-groups-for-machine-learning-models-7017350ab86e)
-* [A Guide to Panel Data Regression: Theoretics and Implementation with Python](https://towardsdatascience.com/a-guide-to-panel-data-regression-theoretics-and-implementation-with-python-4c84c5055cf8)
+* [How to develop LSTM models for time series forecasting](https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)
+* [Energy consumption time series forecasting](https://towardsdatascience.com/energy-consumption-time-series-forecasting-with-python-and-lstm-deep-learning-model-7952e2f9a796)
 
 ### Technologies and packages
 * Python
-* Linearmodels
-* Statsmodels.api
-* Matplotlib
-* Scipy
 * Numpy
+* Matplotlib
+* Keras
+* Tensorflow
+* Scikit-learn
