@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,macos,windows,linux,dotenv,pycharm,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,macos,windows,linux,dotenv,pycharm,visualstudiocode
 
+# wip
+wip.ipynb
+
 ### dotenv ###
 .env
 
